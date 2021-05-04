@@ -75,8 +75,8 @@ class _MyAppState extends State<MyApp> {
                           child: Image.asset(
                             'assets/${bus.icon}',
                             fit: BoxFit.fitHeight,
-                            width: 100,
-                            height: 150,
+                            width: 150,
+                            height: 200,
                           )),
                       SizedBox(height: 5),
                       _textTemp(bus.name, 20.0),
